@@ -1,0 +1,15 @@
+{
+    "readyEvent": "",
+    "readySelector": "",
+    "delay": 0,
+    "hideSelectors": [],
+    "removeSelectors": [],
+    "hoverSelector": "",
+    "clickSelector": "",
+    "postInteractionWait": 1,
+    "selectors": [],
+    "selectorExpansion": true,
+    "expect": 0,
+    "misMatchThreshold": 5,
+    "requireSameDimensions": true
+}

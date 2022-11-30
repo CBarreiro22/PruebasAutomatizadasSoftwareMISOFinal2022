@@ -4,6 +4,7 @@
   "description": "Se realizan prueban aplicando la estrategia de generacion de datos aleatorios, utilizando la herramienta faker",
   "main": "index.js",
   "scripts": {
+    "script": "node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -11,5 +12,8 @@
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
     "cypress": "^11.2.0"
+  },
+  "dependencies": {
+    "backstopjs": "^6.1.4"
   }
 }

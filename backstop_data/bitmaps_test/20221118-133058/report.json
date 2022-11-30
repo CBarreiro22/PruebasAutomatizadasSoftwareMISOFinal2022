@@ -1,0 +1,32 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "..\\bitmaps_reference\\backstop_default_Step1_de_Escenario1__0_document_0_default.png",
+        "test": "..\\bitmaps_test\\20221118-133058\\backstop_default_Step1_de_Escenario1__0_document_0_default.png",
+        "selector": "document",
+        "fileName": "backstop_default_Step1_de_Escenario1__0_document_0_default.png",
+        "label": "Step:1 de Escenario:1 ",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 8,
+        "url": "./backstop_data/capturas/v5.19.0/v5.19_esc_1_step_1.png",
+        "referenceUrl": "./backstop_data/capturas/v3.42/v3.42_esc_1_step_1.png",
+        "expect": 0,
+        "viewportLabel": "default",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 7.325833333333333,
+          "misMatchPercentage": "7.33",
+          "analysisTime": 68
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "id": "backstop_default"
+}
