@@ -1,6 +1,6 @@
 import Login from "../../login";
-import IngresoTag from "../../IngresoTag";
-import BugVisualizarTag from "./Bug_Visualizacion_tag";
+import IngresoPage from "../../ingresoPage";
+import TituloPageMas255 from "./PublicarPageTituloMas255";
 
 const email = Cypress.env('email')
 const password = Cypress.env('password')
@@ -25,10 +25,10 @@ describe('Testing basic Ghost', () => {
             });
  
             it("Then content and title should not be empty", function () {
-                const ingreso = new IngresoTag();
-                const bugVisualizarTag = new BugVisualizarTag();
-                ingreso.ingresoTag();
-                bugVisualizarTag.bugVisualizarTag();
+                const ingreso = new IngresoPage();
+                const tituloPageMas255 = new TituloPageMas255();
+                ingreso.ingresoPage();
+                tituloPageMas255.tituloPageMas255();
             })
         })
     })
