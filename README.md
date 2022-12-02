@@ -2,7 +2,7 @@
 
 <a href="https://github.com/CBarreiro22/PruebasAutomatizadasSoftwareMISOFinal2022/wiki">Integrantes</a>
 
-En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.
+En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.(Si se quiere saber los integrantes que )
 
 Si se quiere consultarlos escenarios realizados con cypress haz click aqui <a href="#"></a>
 
@@ -80,7 +80,7 @@ Luego de ello puedes visualizar todos los escenarios de pruebas donde podra sele
 
 ## Ejecución Backstop.
 
-Se realizo pruebas de regresion visual con backstop, con las versiones de Ghost 3.42 - Ghost 5.19.0.
+Se realizo pruebas de regresion visual con backstop, con las versiones de Ghost 3.42 - Ghost 5.19.0. Para la ejecucion de esta regresion visual se probaron en los siguientes escenarios <a href="https://github.com/CBarreiro22/PruebasAutomatizadasSoftwareMISOFinal2022/wiki/Escenarios-implementados-en-BackStop">Link</a>
  A continuacion se muestra los pasos a realizar:
  1. Instalar las dependencias
 
