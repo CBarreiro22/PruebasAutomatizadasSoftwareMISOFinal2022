@@ -1,4 +1,6 @@
-# pruebasEstrategias2022MISO
+# PruebasEstrategias2022MISO
+
+<a href="https://github.com/CBarreiro22/PruebasAutomatizadasSoftwareMISOFinal2022/wiki">Integrantes</a>
 
 En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.
 
