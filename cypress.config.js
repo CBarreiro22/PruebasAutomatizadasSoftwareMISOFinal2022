@@ -2,12 +2,10 @@ const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:2368/ghost/#/signin'
+    baseUrl: 'http://localhost:3001/ghost/#/tags'
   },
   env: {
-    email: '',
-    password: '',
-    mockarooUrl:'https://api.mockaroo.com/api/a1e06630',
-    mockarooKey:'dcedeee0'
+    email: 'c.barreiroh@uniandes.edu.co',
+    password: 'Q123456789'
   }
 })
