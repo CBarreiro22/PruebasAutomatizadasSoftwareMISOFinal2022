@@ -1,5 +1,6 @@
 # PruebasEstrategias2022MISO
 
+<a href="https://github.com/CBarreiro22/PruebasAutomatizadasSoftwareMISOFinal2022/wiki">Integrantes</a>
 
 En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.(Si se quiere saber los integrantes que )
 
@@ -15,7 +16,13 @@ Para poder utilizar este repositorio procede en primera instancia clonando el re
 git clone https://github.com/CBarreiro22/pruebasEstrategias2022MISO
 ```
 
-Luego de haber clonado el repositorio localmente, dentro del directorio ```pruebasEstrategias2022MISO``` instala cypress con el siguiente comando:
+Luego de haber clonado el repositorio localmente, dentro del directorio ```pruebasEstrategias2022MISO```  ejecutar el siguiente comando:
+
+```
+npm install
+```
+
+ Luego procede instalando cypress con el siguiente comando:
 
 ```
 npm install --save-dev cypress
