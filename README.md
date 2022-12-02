@@ -7,7 +7,7 @@ Si se quiere consultarlos escenarios realizados con cypress haz click aqui <a hr
 Adicional, si se quieren saber como se realizaron cada una de las estrategias de generacion de datos con cypress por favor <a href="https://github.com/CBarreiro22/pruebasEstrategias2022MISO/wiki/Generacion_de_datos">Haz click aqui</a>
 
 
-## Ejecución
+## Ejecución Cypress
 Para poder utilizar este repositorio procede en primera instancia clonando el repositorio con el siguiente comando:
 
 ```bash
@@ -69,3 +69,40 @@ Luego de ello, seleccionamos el navegador de su seleccion para visualizar las pr
 Luego de ello puedes visualizar todos los escenarios de pruebas donde podra seleccionar cualquiera de los escenarios para su ejecución
 
 ![image](https://user-images.githubusercontent.com/111206402/201263210-1159d642-66b1-4d92-bfc6-27a09d30b958.png)
+
+## Ejecución Backstop.
+
+Se realizo pruebas de regresion visual con backstop, con las versiones de Ghost 3.42 - Ghost 5.19.0.
+ A continuacion se muestra los pasos a realizar:
+ 1. Instalar las dependencias
+
+```shell
+npm install -g backstopjs
+```
+
+2. Ejecutar Script
+
+```shell
+npm run script
+```
+
+3. Ejecutar comando
+
+```shell
+backstop reference
+```
+
+4. Ejecutar comando
+
+```shell
+backstop test
+```
+## Reporte
+
+Para ver el reporte de click en este [link](https://github.com/david-lyon-uniandes/PRUEBAS_REGRESION_GHOST_KRAKEN/releases/tag/v.1.1.0) y descargue el release y una vez descomprimida la carpeta vaya al directorio.
+
+```shell
+./backstop_data/html_report/
+```
+
+Luego de estar dentro de la directorio html_report desplegue el archivo ```index.html``` en el navegador de preferencia.
