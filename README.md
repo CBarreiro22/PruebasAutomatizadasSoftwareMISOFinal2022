@@ -1,6 +1,7 @@
-# pruebasEstrategias2022MISO
+# PruebasEstrategias2022MISO
 
-En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.
+
+En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.(Si se quiere saber los integrantes que )
 
 Si se quiere consultarlos escenarios realizados con cypress haz click aqui <a href="#"></a>
 
