@@ -97,6 +97,10 @@ backstop reference
 ```shell
 backstop test
 ```
+
+Si se quieres saber el listado de diferencias que se encontro de ghost entre las dos version selecciona el siguiente <a href="https://github.com/CBarreiro22/PruebasAutomatizadasSoftwareMISOFinal2022/wiki/Regression-Backstop-JS-listado-de-diferencias-encontradas-Ghost-3.42---Ghost-5.19.0">Link</a>
+
+
 ## Reporte
 
 Para ver el reporte de click en este [link](https://github.com/david-lyon-uniandes/PRUEBAS_REGRESION_GHOST_KRAKEN/releases/tag/v.1.1.0) y descargue el release y una vez descomprimida la carpeta vaya al directorio.
