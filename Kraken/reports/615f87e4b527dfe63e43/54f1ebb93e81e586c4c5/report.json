@@ -1,0 +1,214 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "crear-un-post;crear-un-post",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Crear un post",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1828000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to page \"http://localhost:2370/ghost/#/signin\"",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/web.js:41"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 16630000000,
+              "error_message": "Navigation failed because browser has disconnected!\nError: Navigation failed because browser has disconnected!\n    at /home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/puppeteer-core/lib/cjs/puppeteer/common/LifecycleWatcher.js:51:147\n    at /home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/puppeteer-core/lib/cjs/vendor/mitt/src/index.js:51:62\n    at Array.map (<anonymous>)\n    at Object.emit (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/puppeteer-core/lib/cjs/vendor/mitt/src/index.js:51:43)\n    at CDPSession.emit (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/puppeteer-core/lib/cjs/puppeteer/common/EventEmitter.js:72:22)\n    at CDPSession._onClosed (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:271:14)\n    at Connection._onMessage (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/puppeteer-core/lib/cjs/puppeteer/common/Connection.js:105:25)\n    at WebSocket.<anonymous> (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/puppeteer-core/lib/cjs/puppeteer/node/NodeWebSocketTransport.js:13:32)\n    at WebSocket.onMessage (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/ws/lib/event-target.js:199:18)\n    at WebSocket.emit (node:events:513:28)\n    at WebSocket.emit (node:domain:489:12)\n    at Receiver.receiverOnMessage (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/ws/lib/websocket.js:1137:20)\n    at Receiver.emit (node:events:513:28)\n    at Receiver.emit (node:domain:489:12)\n    at Receiver.dataMessage (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/ws/lib/receiver.js:528:14)\n    at Receiver.getData (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/ws/lib/receiver.js:446:17)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter email",
+            "match": {
+              "location": "features/web/step_definitions/step.js:8"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I enter password",
+            "match": {
+              "location": "features/web/step_definitions/step.js:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I click next",
+            "match": {
+              "location": "features/web/step_definitions/step.js:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I click tags",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I wait for 3 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I click new tag",
+            "match": {
+              "location": "features/web/step_definitions/step.js:104"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I wait for 2 seconds",
+            "match": {
+              "location": "node_modules/kraken-node/lib/steps/both.js:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter name \"un tag desde kraken\"",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 17000000,
+              "error_message": "Error: no current window handle registered\n    at DevToolsDriver.getPageHandle (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/devtools/build/devtoolsdriver.js:192:19)\n    at DevToolsDriver.checkPendingNavigations (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/devtools/build/devtoolsdriver.js:205:25)\n    at Browser.wrappedCommand (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/devtools/build/devtoolsdriver.js:123:24)\n    at Browser.wrapCommandFn (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/@wdio/utils/build/shim.js:137:38)\n    at Browser.<anonymous> (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/@wdio/utils/build/shim.js:276:24)\n    at WebClient.<anonymous> (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/WebClient.js:109:59)\n    at step (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/WebClient.js:59:23)\n    at Object.next (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/WebClient.js:40:53)\n    at /home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/WebClient.js:34:71\n    at new Promise (<anonymous>)\n    at __awaiter (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/WebClient.js:30:12)\n    at WebClient.stop (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/WebClient.js:104:16)\n    at WebClient.<anonymous> (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/Client.js:109:51)\n    at step (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/Client.js:67:23)\n    at Object.next (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/Client.js:48:53)\n    at fulfilled (/home/camilo/Documents/Proyectos_Universidad_Andes/pruebasAutomatizadas/Kraken/pruebaskraken/node_modules/kraken-node/lib/clients/Client.js:39:58)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user1",
+            "line": 2
+          },
+          {
+            "name": "@web",
+            "line": 2
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "crear-un-post",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Crear un post",
+    "tags": [],
+    "uri": "features/FeatureTag.feature"
+  }
+]
