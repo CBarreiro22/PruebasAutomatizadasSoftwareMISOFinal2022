@@ -8,7 +8,7 @@ Para consultar la estrategia de pruebas en este archivo <a href="https://github.
 
 En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.(Si se quiere saber los integrantes que )
 
-Si se quiere consultarlos escenarios realizados con cypress haz click aqui <a href="#"></a>
+
 
 Adicional, si se quieren saber como se realizaron cada una de las estrategias de generacion de datos con cypress por favor <a href="https://github.com/CBarreiro22/pruebasEstrategias2022MISO/wiki/Generacion_de_datos">Haz click aqui</a>
 
