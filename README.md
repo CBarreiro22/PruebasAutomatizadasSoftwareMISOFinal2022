@@ -2,6 +2,8 @@
 
 <a href="https://github.com/CBarreiro22/PruebasAutomatizadasSoftwareMISOFinal2022/wiki">Integrantes</a>
 
+Para consultar la estrategia de pruebas en este archivo <a href="https://github.com/CBarreiro22/PruebasAutomatizadasSoftwareMISOFinal2022/wiki/Estrategia"></a>
+
 <a href="https://uniandes-my.sharepoint.com/:v:/g/personal/c_barreiroh_uniandes_edu_co/EVx_BQ76ahdKoIlvjm1IUMQBtPHDIutLshBh1ZWF6427NA?e=PCBO5e">VIDEO</a>
 
 En este repositorio se encontrara pruebas realizadas con cyress de la aplicacion ghost de cada una de las funcionalidades que esta tiene usando las estrategias de generacion de datos aleatorios.(Si se quiere saber los integrantes que )
