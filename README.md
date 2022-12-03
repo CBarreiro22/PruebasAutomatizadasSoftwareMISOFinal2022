@@ -59,7 +59,7 @@ Luego de haber ejecutado el comando anterior procede a ejecutar Kraken con el si
 
 configurar el usuario administrador con las credenciales email y password de este archivo.
 
-[user data](/features/web/step_definitions/pages_object/userData.js)
+[user data](Kraken/features/web/step_definitions/pages_object/userData.js)
 
 Para ejecutar los escenarios se debe mover los archivos uno por uno y ejecutar del directorio PruebasGhost en features.
 
