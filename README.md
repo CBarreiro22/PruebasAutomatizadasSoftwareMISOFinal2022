@@ -8,6 +8,69 @@ Si se quiere consultarlos escenarios realizados con cypress haz click aqui <a hr
 
 Adicional, si se quieren saber como se realizaron cada una de las estrategias de generacion de datos con cypress por favor <a href="https://github.com/CBarreiro22/pruebasEstrategias2022MISO/wiki/Generacion_de_datos">Haz click aqui</a>
 
+## Ejecución Kraken
+
+## prerequisitos 
+
+npm 8.19.2
+<br/> 
+[Ghost CLI](https://ghost.org/docs/ghost-cli/)
+<br/>
+node 16.17.1
+
+## Ejecución
+
+Para la ejecucion primero se tiene que descargar el repositorio colocando en la terminal el siguiente comando:
+
+
+Crear un directorio para instalar ghost 5.19.0
+```shell
+mkdir ghost5_19_0
+```
+```shell
+cd ghost5_19_0
+```
+
+```shell
+ghost install 5.19.0 --port 2368 local
+```
+```shell
+ghost start
+```
+
+```shell
+mkdir equipo18
+```
+
+```shell
+cd equipo18
+```
+
+```shell
+git clone https://github.com/ELISAANGULO/Kraken.git
+```
+Luego de haber descargado el repositorio procedera a ejecutar el siguiente comando dentro de la carpeta descargada
+
+```shell
+npm install kraken-node -g
+```
+
+Luego de haber ejecutado el comando anterior procede a ejecutar Kraken con el siguiente comando
+
+configurar el usuario administrador con las credenciales email y password de este archivo.
+
+[user data](Kraken/features/web/step_definitions/pages_object/userData.js)
+
+Para ejecutar los escenarios se debe mover los archivos uno por uno y ejecutar del directorio PruebasGhost en features.
+
+[PruebasGhost](Kraken/PruebasGhost)
+</br>
+[features](Kraken/features)
+
+
+```shell
+$ ./node_modules/kraken-node/bin/kraken-node run
+```
 
 ## Ejecución Cypress
 Para poder utilizar este repositorio procede en primera instancia clonando el repositorio con el siguiente comando:
