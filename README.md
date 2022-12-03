@@ -63,9 +63,9 @@ configurar el usuario administrador con las credenciales email y password de est
 
 Para ejecutar los escenarios se debe mover los archivos uno por uno y ejecutar del directorio PruebasGhost en features.
 
-[PruebasGhost](/PruebasGhost)
+[PruebasGhost](Kraken/PruebasGhost)
 </br>
-[features](/features)
+[features](Kraken/features)
 
 
 ```shell
