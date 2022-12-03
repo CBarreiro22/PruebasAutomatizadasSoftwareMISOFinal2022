@@ -1,6 +1,5 @@
 import Login from "../../login";
-import IngresoPost from "../../ingresoPost";
-import BugVisualizacionPost from "../../Pruebas Para Los Bugs/Bug visualización nombre Post en listado Post/Bug_visualización_nombre_Post";
+import ingresoMiembro from "../../ingresoMiembro";
 
 
 const email = Cypress.env('email')
@@ -16,20 +15,17 @@ describe('Testing basic Ghost', () => {
             beforeEach(()=>{
                 const login = new Login();
                 login.enterEmail(email);
-                login.enterPassword(password);
                 cy.wait(1000)
                 cy.get('input[name="identification"]').should('have.value',email)
                 cy.wait(1000)
-                cy.get('input[name="password"]').should('have.value',password)
+                cy.get('button[class="forgotten-link gh-btn gh-btn-link gh-btn-icon ember-view"]').contains('Forgot?').click()
                 cy.wait(2000)
-                login.submit();
             });
  
-            it("Then content and title should not be empty", function () {
-                const ingreso = new IngresoPost();
-                const bugVisualizacionPost = new BugVisualizacionPost();
-                ingreso.ingresoPost();
-                bugVisualizacionPost.bugVisualizacionPost();
+            it("Then the title and content should be empty", function () {
+                const ingreso = new ingresoMiembro();
+                ingreso.ingresoMiembro();
+                
             })
         })
     })

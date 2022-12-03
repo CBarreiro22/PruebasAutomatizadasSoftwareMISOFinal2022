@@ -1,6 +1,6 @@
 import Login from "../../login";
 import IngresoPost from "../../ingresoPost";
-import BugVisualizacionPost from "../../Pruebas Para Los Bugs/Bug visualización nombre Post en listado Post/Bug_visualización_nombre_Post";
+import BugVisualizacionPost from "./Bug_visualización_nombre_Post";
 
 
 const email = Cypress.env('email')
