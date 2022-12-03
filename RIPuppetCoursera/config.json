@@ -1,0 +1,10 @@
+{
+    "url": "http://localhost:2370/ghost/#/signin",
+    "headless": true,
+    "depthLevels": 5,
+    "inputValues": true,
+    "values": {
+        "ember6": "c.barreiroh@uniandes.edu.co",
+        "ember8": "Q123456789"},
+    "browsers": ["chromium"]
+}
